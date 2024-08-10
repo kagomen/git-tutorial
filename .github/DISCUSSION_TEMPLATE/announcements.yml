@@ -1,33 +1,30 @@
 title: "【第X回】2024年XX月XX日"
-labels: ["Announcements"]
+labels: ["General Introduction"]
 body:
   - type: markdown
     attributes:
       value: |
         🗞️ 議事録用テンプレートです
   - type: textarea
-    id: improvements
+    id: index
     attributes:
-      label: Top 3 improvements
-      description: "What are the top 3 improvements we could make to this project?"
+      label: 目次
+      description: ""
       value: |
-        1.
-        2.
-        3.
-        ...
+        目次はトピックを立てた人が書き加えてください
+        - [トピックタイトル](URL)
+        - 結論
       render: bash
     validations:
       required: true
-  - type: markdown
+  - type: textarea
+    id: next-task
     attributes:
+      label: 次の一週間でやること
+      description: ""
       value: |
-        ## Markdown header
-        And some more markdown
-  - type: input
-    id: has-id
-    attributes:
-      label: Suggestions
-      description: A description about suggestions to help you
+        -
+      render: bash
     validations:
       required: true
   - type: markdown
@@ -42,5 +39,3 @@ body:
         ## 関連Issues, Discussions
         <!-- あれば書いてください -->
         ```
-    validations:
-      required: true
