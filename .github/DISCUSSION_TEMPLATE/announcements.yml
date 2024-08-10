@@ -30,13 +30,6 @@ body:
       description: A description about suggestions to help you
     validations:
       required: true
-  - type: input
-    id: index
-    attributes:
-      label: 目次
-      description: 目次はトピックを立てた人が書き加えてください
-    validations:
-      required: false
   - type: markdown
     attributes:
       label: トピック用フォーマット
@@ -49,3 +42,5 @@ body:
         ## 関連Issues, Discussions
         <!-- あれば書いてください -->
         ```
+    validations:
+      required: true
