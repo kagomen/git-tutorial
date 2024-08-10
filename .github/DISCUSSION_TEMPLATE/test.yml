@@ -1,5 +1,10 @@
 title: "【第X回】2024年XX月XX日"
 body:
+  - type: markdown
+    attributes:
+      value: |
+      タイトルの変更のみお願いします🙏
+      その他の項目はそのままで大丈夫です🌟
   - type: textarea
     id: index
     attributes:
