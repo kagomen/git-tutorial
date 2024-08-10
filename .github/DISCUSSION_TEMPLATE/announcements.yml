@@ -1,10 +1,10 @@
-title: "[General] "
-labels: ["General Introduction"]
+title: "【第X回】2024年XX月XX日"
+labels: [""]
 body:
   - type: markdown
     attributes:
       value: |
-        This is text that will show up in the template!
+        🗞️ 議事録用テンプレートです
   - type: textarea
     id: improvements
     attributes:
@@ -30,26 +30,22 @@ body:
       description: A description about suggestions to help you
     validations:
       required: true
-  - type: dropdown
-    id: download
+  - type: input
+    id: index
     attributes:
-      label: Which area of this project could be most improved?
-      options:
-        - Documentation
-        - Pull request review time
-        - Bug fix time
-        - Release cadence
+      label: 目次
+      description: 目次はトピックを立てた人が書き加えてください
     validations:
-      required: true
-  - type: checkboxes
-    attributes:
-      label: Check that box!
-      options:
-        - label: This one!
-          required: true
-        - label: I won't stop you if you check this one, too
+      required: false
   - type: markdown
     attributes:
+      label: トピック用フォーマット
       value: |
-        ### The thrilling conclusion
-        _to our template_
+        ```
+        ## 概要
+
+        ## 結論
+
+        ## 関連Issues, Discussions
+        <!-- あれば書いてください -->
+        ```
