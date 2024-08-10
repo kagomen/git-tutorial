@@ -3,8 +3,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        タイトルの変更のみお願いします🙏
-        その他の項目はそのままで大丈夫です🌟
+        Here is English only?
   - type: textarea
     id: index
     attributes:
