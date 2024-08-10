@@ -1,26 +1,24 @@
-title: "【第X回】2024年XX月XX日"
+title: "test"
 labels: [Test]
 body:
   - type: markdown
     attributes:
       value: |
-        🗞️ 議事録用テンプレートです
+        test
   - type: textarea
     id: index
     attributes:
-      label: 目次
+      label: test
       description: ""
       value: |
-        目次はトピックを立てた人が書き加えてください
-        - [トピックタイトル](URL)
-        - 結論
+        test
       render: bash
     validations:
       required: true
   - type: textarea
     id: next-task
     attributes:
-      label: 次の一週間でやること
+      label: test
       description: ""
       value: |
         -
