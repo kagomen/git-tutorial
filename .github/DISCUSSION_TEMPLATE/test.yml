@@ -1,41 +1,36 @@
 title: "【第X回】2024年XX月XX日"
-labels: [Test]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        🗞️ 議事録用テンプレートです
   - type: textarea
-    id: index
+    id: mokuji
     attributes:
       label: 目次
-      description: ""
       value: |
         目次はトピックを立てた人が書き加えてください
         - [トピックタイトル](URL)
         - 結論
-      render: bash
+      # render: bash
     validations:
       required: true
   - type: textarea
-    id: next-task
+    id: nexttask
     attributes:
       label: 次の一週間でやること
       description: ""
       value: |
-        -
-      render: bash
+        - やること
+      # render: bash
     validations:
       required: true
-  - type: markdown
+  - type: textarea
+    id: format
     attributes:
       label: トピック用フォーマット
       value: |
-        ```
         ## 概要
 
         ## 結論
 
         ## 関連Issues, Discussions
         <!-- あれば書いてください -->
-        ```
+    validations:
+      required: true
