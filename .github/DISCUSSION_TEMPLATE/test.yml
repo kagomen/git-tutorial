@@ -8,17 +8,14 @@ body:
         目次はトピックを立てた人が書き加えてください
         - [トピックタイトル](URL)
         - 結論
-      # render: bash
     validations:
       required: true
   - type: textarea
     id: nexttask
     attributes:
       label: 次の一週間でやること
-      description: ""
       value: |
         - やること
-      # render: bash
     validations:
       required: true
   - type: textarea
