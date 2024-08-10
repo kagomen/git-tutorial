@@ -1,7 +1,7 @@
 title: "【第X回】2024年XX月XX日"
 body:
   - type: textarea
-    id: mokuji
+    id: index
     attributes:
       label: 目次
       value: |
@@ -11,23 +11,27 @@ body:
     validations:
       required: true
   - type: textarea
-    id: nexttask
+    id: next-task
     attributes:
       label: 次の一週間でやること
       value: |
-        - やること
+        - 
+        -
     validations:
       required: true
   - type: textarea
-    id: format
+    id: format-for-topic
     attributes:
       label: トピック用フォーマット
       value: |
+        以下をコピーしてトピックを立ててください
+        ```
         ## 概要
 
         ## 結論
 
         ## 関連Issues, Discussions
         <!-- あれば書いてください -->
+        ```
     validations:
       required: true
